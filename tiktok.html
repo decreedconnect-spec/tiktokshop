@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>TikTok Shop | CoinVault Exchange</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{font-family:'Inter',sans-serif;margin:0;padding:0;box-sizing:border-box}
+:root{--tp:#fe2c55;--tc:#25f4ee}
+body{background:#000;color:#fff;overflow-x:hidden}
+.ttg{background:linear-gradient(90deg,var(--tp),var(--tc));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.tgl{background:rgba(255,255,255,0.03);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.08)}
+.tgc{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);transition:all 0.3s ease}
+.tgc:hover{transform:translateY(-4px);border-color:rgba(254,44,85,0.4);box-shadow:0 20px 40px rgba(254,44,85,0.1)}
+.tbp{background:linear-gradient(135deg,#fe2c55,#ff0050);box-shadow:0 4px 20px rgba(254,44,85,0.3)}
+.tbp:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(254,44,85,0.4)}
+.ttb{background:rgba(37,244,238,0.1);border:1px solid rgba(37,244,238,0.3);color:#25f4ee}
+.ttb2{background:rgba(254,44,85,0.1);border:1px solid rgba(254,44,85,0.3);color:#fe2c55}
+.tgp{background-image:linear-gradient(rgba(254,44,85,0.02)1px,transparent 1px),linear-gradient(90deg,rgba(37,244,238,0.02)1px,transparent 1px);background-size:50px 50px}
+@keyframes f{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.af{animation:f 4s ease-in-out infinite}
+.tpr{height:4px;background:rgba(255,255,255,0.1);border-radius:2px;overflow:hidden}
+.tprf{height:100%;border-radius:2px}
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:#0f0f1f}
+::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#fe2c55,#25f4ee);border-radius:3px}
+</style>
+</head>
+<body class="tgp">
+<nav class="fixed top-0 w-full z-50 tgl border-b border-white/10 h-16">
+<div class="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#fe2c55] to-[#25f4ee] flex items-center justify-center">
+<svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+</div>
+<div>
+<h1 class="text-lg font-black tracking-tight">TikTok Shop <span class="ttg">CoinVault</span></h1>
+<p class="text-[10px] text-gray-400 uppercase tracking-widest">P2P COIN MARKETPLACE</p>
+</div>
+</div>
+<div class="hidden md:flex items-center gap-6 mr-4">
+<div class="text-right"><p class="text-[10px] text-gray-400 uppercase">Inventory</p><p class="text-lg font-black text-[#25f4ee] font-mono">75,000+</p></div>
+<div class="w-px h-8 bg-white/10"></div>
+<div class="text-right"><p class="text-[10px] text-gray-400 uppercase">Active</p><p class="text-lg font-black text-[#fe2c55]">12</p></div>
+</div>
+<button onclick="document.getElementById('mp').scrollIntoView({behavior:'smooth'})" class="h-10 px-6 rounded-full tbp text-white text-sm font-bold">Buy Coins</button>
+</div>
+</nav>
+
+<section class="pt-20 pb-8 px-4">
+<div class="max-w-7xl mx-auto">
+<div class="relative rounded-3xl overflow-hidden mb-6 bg-gradient-to-r from-[#fe2c55]/20 via-transparent to-[#25f4ee]/20 border border-white/10 p-6 lg:p-8">
+<div class="flex flex-col lg:flex-row items-center justify-between gap-6">
+<div class="flex-1 text-center lg:text-left">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full ttb mb-4 text-xs font-bold uppercase"><span class="w-2 h-2 rounded-full bg-[#25f4ee] animate-pulse"></span>75,000+ Coins Available</div>
+<h2 class="text-3xl lg:text-5xl font-black mb-3">Buy TikTok Coins<br><span class="ttg">At 1:3x Value</span></h2>
+<p class="text-gray-400 mb-6">Professional P2P marketplace. Universe, Lion, Galaxy in stock.</p>
+<button onclick="document.getElementById('mp').scrollIntoView({behavior:'smooth'})" class="h-12 px-6 rounded-full tbp text-white font-bold">Shop Now</button>
+</div>
+<div class="flex gap-3">
+<div class="tgl rounded-xl p-4 border border-white/10 text-center min-w-[100px]"><div class="text-xs text-gray-400 uppercase mb-1">Volume</div><div class="text-xl font-black text-white">€128K</div></div>
+<div class="tgl rounded-xl p-4 border border-white/10 text-center min-w-[100px]"><div class="text-xs text-gray-400 uppercase mb-1">Sellers</div><div class="text-xl font-black text-[#25f4ee]">24</div></div>
+<div class="tgl rounded-xl p-4 border border-white/10 text-center min-w-[100px]"><div class="text-xs text-gray-400 uppercase mb-1">Savings</div><div class="text-xl font-black text-[#ffd700]">67%</div></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="mp" class="py-8 px-4">
+<div class="max-w-7xl mx-auto">
+<h3 class="text-xl font-black mb-1">Featured Gifts</h3>
+<p class="text-xs text-gray-400 mb-4">Premium inventory - Click to order via email</p>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8" id="fg"></div>
+
+<h3 class="text-xl font-black mb-1">All Coins</h3>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-4" id="ag"></div>
+</div>
+</section>
+
+<div id="om" class="fixed inset-0 z-[100] hidden" onclick="if(event.target===this)cm()">
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-sm p-4">
+<div class="tgl rounded-2xl p-6 border border-white/20 relative">
+<button onclick="cm()" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-lg">×</button>
+<div class="text-center mb-4">
+<div class="w-16 h-16 rounded-xl bg-gradient-to-br from-[#fe2c55] to-[#25f4ee] flex items-center justify-center text-3xl mx-auto mb-3 af" id="mi">🎁</div>
+<h3 class="text-xl font-black mb-1" id="mt">Gift</h3>
+<div class="flex justify-center items-center gap-2 mb-3"><span class="text-gray-400 line-through text-sm" id="mo">€0</span><span class="text-2xl font-black ttg" id="mp2">€0</span></div>
+</div>
+<div class="space-y-2 mb-4 text-sm">
+<div class="flex justify-between p-2 rounded-lg bg-white/5"><span class="text-gray-400">Coins</span><span class="font-bold" id="mc">0</span></div>
+<div class="flex justify-between p-2 rounded-lg bg-white/5"><span class="text-gray-400">Seller</span><span class="font-bold text-[#25f4ee]" id="ms">@s</span></div>
+<div class="flex justify-between p-2 rounded-lg bg-white/5"><span class="text-gray-400">You Save</span><span class="font-bold text-[#fe2c55]" id="msv">0%</span></div>
+</div>
+<a id="mel" href="#" class="block w-full py-3 rounded-xl tbp text-white font-bold text-center mb-2">Send Order Email →</a>
+<p class="text-[10px] text-gray-500 text-center">Opens email to NBA.LAKERS@USA.com</p>
+</div>
+</div>
+</div>
+
+<footer class="border-t border-white/10 py-6 px-4 mt-8">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-gradient-to-br from-[#fe2c55] to-[#25f4ee] flex items-center justify-center">
+<svg class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+</div>
+<div>
+<h4 class="font-bold text-sm">TikTok Shop CoinVault</h4>
+<p class="text-[10px] text-gray-400">P2P Coin Marketplace</p>
+</div>
+</div>
+<div class="text-xs text-gray-500">© 2024 CoinVault Exchange</div>
+</div>
+</footer>
+
+<script>
+const SE="NBA.LAKERS@USA.com";
+const iv=[
+{id:1,n:"TikTok Universe",i:"🌌",c:44999,o:562.48,p:187.49,s:"@vault_pro",v:1,sc:15000,m:20000,h:1},
+{id:2,n:"Lion",i:"🦁",c:29999,o:398.95,p:132.98,s:"@coin_master",v:1,sc:12000,m:15000,h:1},
+{id:3,n:"Zeus",i:"⚡",c:34000,o:452.10,p:150.70,s:"@crypto_gifts",v:0,sc:8000,m:10000,h:0},
+{id:4,n:"Dragon",i:"🐉",c:26999,o:359.29,p:119.76,s:"@gift_master",v:1,sc:6000,m:8000,h:0},
+{id:5,n:"Planet",i:"🪐",c:15000,o:199.50,p:66.50,s:"@vault_pro",v:1,sc:10000,m:12000,h:0},
+{id:6,n:"Diamond",i:"💎",c:18000,o:239.40,p:79.80,s:"@coin_master",v:1,sc:7000,m:9000,h:0},
+{id:7,n:"Airplane",i:"✈️",c:6000,o:79.78,p:26.59,s:"@travel_gifts",v:0,sc:5000,m:6000,h:0},
+{id:8,n:"Mermaid",i:"🧜‍♀️",c:2988,o:39.74,p:13.25,s:"@ocean_coins",v:0,sc:4000,m:5000,h:0},
+{id:9,n:"Galaxy",i:"🌠",c:1000,o:13.30,p:4.43,s:"@space_gifts",v:0,sc:8000,m:10000,h:0},
+{id:10,n:"Disco",i:"🪩",c:1000,o:13.30,p:4.43,s:"@party_coins",v:0,sc:6000,m:8000,h:0},
+{id:11,n:"Money",i:"💸",c:500,o:6.65,p:2.22,s:"@rich_gifts",v:0,sc:10000,m:12000,h:0},
+{id:12,n:"Sunglasses",i:"🕶️",c:199,o:2.64,p:0.88,s:"@cool_coins",v:0,sc:15000,m:20000,h:0},
+{id:13,n:"Ice Cream",i:"🍦",c:199,o:2.64,p:0.88,s:"@sweet_coins",v:0,sc:8000,m:10000,h:0},
+{id:14,n:"Balloon",i:"🎈",c:199,o:2.64,p:0.88,s:"@love_gifts",v:0,sc:6000,m:8000,h:0},
+{id:15,n:"Football",i:"⚽",c:99,o:1.32,p:0.44,s:"@sports_coins",v:0,sc:5000,m:6000,h:0},
+{id:16,n:"GG",i:"🎮",c:1,o:0.01,p:0.01,s:"@gg_coins",v:0,sc:5000,m:10000,h:0}
+];
+
+function fp(p){return'€'+p.toFixed(2)}
+function fn(n){return n.toLocaleString()}
+function gs(sc,m){const r=sc/m;if(r<0.2)return'bg-[#fe2c55]';if(r<0.5)return'bg-[#ffd700]';return'bg-[#25f4ee]'}
+
+function rf(){
+const f=iv.filter(i=>i.h||i.sc>10000).slice(0,4);
+let h='';
+for(let ix=0;ix<f.length;ix++){
+const it=f[ix];
+const st=gs(it.sc,it.m);
+h+=`<div class="tgc rounded-xl p-4 cursor-pointer" onclick="oo(${it.id})">
+${it.v?'<div class="absolute top-2 right-2 ttb px-2 py-0.5 rounded text-[10px] font-bold">✓</div>':''}
+${it.h?'<div class="absolute top-2 left-2 ttb2 px-2 py-0.5 rounded text-[10px] font-bold">HOT</div>':''}
+<div class="text-5xl mb-3 af" style="animation-delay:${ix*0.5}s">${it.i}</div>
+<h4 class="font-bold text-sm mb-1">${it.n}</h4>
+<p class="text-[10px] text-gray-400 mb-2">${it.s}</p>
+<div class="flex justify-between items-center mb-2">
+<span class="text-xs text-gray-500 line-through">${fp(it.o)}</span>
+<span class="text-lg font-black text-[#25f4ee]">${fp(it.p)}</span>
+</div>
+<div class="tpr mb-2"><div class="tprf ${st}" style="width:${(it.sc/it.m)*100}%"></div></div>
+<div class="flex justify-between text-[10px]">
+<span class="text-gray-400">${fn(it.sc)} left</span>
+<span class="text-[#fe2c55] font-bold">-${Math.round((1-it.p/it.o)*100)}%</span>
+</div>
+</div>`;
+}
+document.getElementById('fg').innerHTML=h;
+}
+
+function ra(){
+const a=iv.slice(4);
+let h='';
+for(let ix=0;ix<a.length;ix++){
+const it=a[ix];
+const st=gs(it.sc,it.m);
+h+=`<div class="tgc rounded-xl p-4 cursor-pointer" onclick="oo(${it.id})">
+<div class="flex justify-between items-start mb-2">
+<div class="text-4xl af" style="animation-delay:${ix*0.3}s">${it.i}</div>
+${it.v?'<div class="w-5 h-5 rounded-full bg-[#25f4ee]/20 flex items-center justify-center text-[#25f4ee] text-xs">✓</div>':''}
+</div>
+<h4 class="font-bold text-sm mb-1">${it.n}</h4>
+<div class="text-[10px] text-gray-500 mb-2">${fn(it.c)} coins</div>
+<div class="flex justify-between items-center mb-2">
+<span class="text-xs text-gray-500 line-through">${fp(it.o)}</span>
+<span class="text-lg font-black text-[#25f4ee]">${fp(it.p)}</span>
+</div>
+<div class="tpr mb-2"><div class="tprf ${st}" style="width:${(it.sc/it.m)*100}%"></div></div>
+<div class="flex justify-between text-[10px] text-gray-400">
+<span>${it.s}</span>
+<span>Buy</span>
+</div>
+</div>`;
+}
+document.getElementById('ag').innerHTML=h;
+}
+
+function oo(id){
+const it=iv.find(i=>i.id===id);
+if(!it)return;
+document.getElementById('mi').textContent=it.i;
+document.getElementById('mt').textContent=it.n;
+document.getElementById('mp2').textContent=fp(it.p);
+document.getElementById('mo').textContent=fp(it.o);
+document.getElementById('mc').textContent=fn(it.c);
+document.getElementById('ms').textContent=it.s;
+document.getElementById('msv').textContent='-'+Math.round((1-it.p/it.o)*100)+'%';
+const sub=`Order: ${it.n} (${fn(it.c)} coins)`;
+const bod=`Hi, I'd like to purchase:\n\nGift: ${it.n}\nCoins: ${fn(it.c)}\nPrice: ${fp(it.p)}\nSeller: ${it.s}\nOfficial: ${fp(it.o)}\n\nPlease send payment instructions.\n\nThank you!`;
+document.getElementById('mel').href='mailto:'+SE+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(bod);
+document.getElementById('om').classList.remove('hidden');
+}
+
+function cm(){
+document.getElementById('om').classList.add('hidden');
+}
+
+window.onload=function(){
+rf();
+ra();
+};
+</script>
+</body>
+</html>
